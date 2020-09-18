@@ -9,6 +9,8 @@ import java.lang.reflect.Field;
  * 测试类
  */
 public class Application {
+    private int test;
+
     public static void main(String[] args) throws NoSuchFieldException {
         Class<String> stringClass = String.class;
         Field hash = stringClass.getDeclaredField("hash");
